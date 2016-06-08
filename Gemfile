@@ -16,7 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # my added gems
 gem 'simple_form'
-
+gem 'minitest'
+gem 'factory_girl'
 # end
 
 # Use jquery as the JavaScript library
