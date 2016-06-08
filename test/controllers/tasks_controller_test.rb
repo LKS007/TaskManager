@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class TasksControllerTest < ActionController::TestCase
-	setup do
+  setup do
     @task = create :task
     @attrs = attributes_for :task
   end

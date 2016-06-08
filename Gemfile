@@ -18,6 +18,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'simple_form'
 gem 'minitest'
 gem 'factory_girl'
+gem 'haml-rails'
+gem 'pry'
+gem 'wrong'
 # end
 
 # Use jquery as the JavaScript library
