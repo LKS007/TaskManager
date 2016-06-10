@@ -21,3 +21,11 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    app_name: "Task Manager"
+  task:
+    index:
+      listing_task: "Listing Task"
+      new_task: "New task"
+    edit:
+      title: "Editing task"

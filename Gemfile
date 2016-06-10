@@ -20,6 +20,7 @@ gem 'factory_girl'
 gem 'haml-rails'
 gem 'pry'
 gem 'wrong'
+gem 'i18n'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
