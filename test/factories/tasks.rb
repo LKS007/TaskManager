@@ -1,6 +1,6 @@
 FactoryGirl.define do
    factory :task do
-     title { generate :string }
-     text {generate :mytext }
+     title
+     text
    end
  end

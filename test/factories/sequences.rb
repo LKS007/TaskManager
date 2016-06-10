@@ -1,9 +1,9 @@
 FactoryGirl.define do
-  sequence :string do |n|
+  sequence :title do |n|
     "Title №#{n}"
   end
 
-  sequence :mytext do |n|
+  sequence :text do |n|
     "Text №#{n}"
   end
 end
