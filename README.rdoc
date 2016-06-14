@@ -1,3 +1,6 @@
 == README
 
+Task Manager
+
+{<img src="https://coveralls.io/repos/github/LKS007/TaskManager/badge.svg?branch=feature%2FCoverage" alt="Coverage Status" />}[https://coveralls.io/github/LKS007/TaskManager?branch=feature%2FCoverage]
 {<img src="https://travis-ci.org/LKS007/TaskManager.svg?branch=feature%2FCoverage" alt="Build Status" />}[https://travis-ci.org/LKS007/TaskManager]
