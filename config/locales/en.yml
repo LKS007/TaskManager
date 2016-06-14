@@ -23,7 +23,7 @@ en:
   hello: "Hello world"
   layouts:
     app_name: "Task Manager"
-  task:
+  tasks:
     task_fields:
       table_title: "Title"
       table_text: "Text"            
@@ -33,7 +33,9 @@ en:
       destroy: "Destroy"
       back: "Back"
     index:
-      listing_task: "Listing Task"
-      new_task: "New task"
+      listing_task: "Listinig Task"
+      new_task: "New Task"
     edit:
       title: "Editing task"
+    new:
+      title: "New Task"

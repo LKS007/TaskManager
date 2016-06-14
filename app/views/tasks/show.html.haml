@@ -1,10 +1,10 @@
 %p
-  %strong= t('task.task_fields.table_title')
+  %strong= t('tasks.task_fields.table_title')
   \:
   = @task.title
 %p
-  %strong= t('task.task_fields.table_text')
+  %strong= t('tasks.task_fields.table_text')
   \:
   = @task.text
-= link_to t('task.link.edit'), edit_task_path(@task)
-= link_to t('task.link.back'), tasks_path
+= link_to t('tasks.link.edit'), edit_task_path(@task)
+= link_to t('tasks.link.back'), tasks_path
