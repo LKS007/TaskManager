@@ -2,12 +2,12 @@
 = link_to t('task.index.new_task'), new_task_path
 %table
   %tr
-    %th Title
-    %th Text
+    %th= t('task.task_fields.table_title')
+    %th= t('task.task_fields.table_text')
   - @tasks.each do |task|
     %tr
       %td= task.title
       %td= task.text
-      %td= link_to 'Show', task_path(task)
-      %td= link_to 'Edit', edit_task_path(task)
-      %td= link_to 'Destroy', task_path(task), method: :delete, data: {confirm: 'Are you sure?' }
+      %td= link_to t('task.link.show'), task_path(task)
+      %td= link_to t('task.link.edit'), edit_task_path(task)
+      %td= link_to t('task.link.destroy'), task_path(task), method: :delete, data: {confirm: 'Are you sure?' }

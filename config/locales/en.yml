@@ -24,6 +24,14 @@ en:
   layouts:
     app_name: "Task Manager"
   task:
+    task_fields:
+      table_title: "Title"
+      table_text: "Text"            
+    link:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      back: "Back"
     index:
       listing_task: "Listing Task"
       new_task: "New task"
