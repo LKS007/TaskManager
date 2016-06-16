@@ -1,0 +1,10 @@
+%p
+  %strong= t('table.title')
+  \:
+  = @task.title
+%p
+  %strong= t('table.text')
+  \:
+  = @task.text
+= link_to t('common.edit'), edit_task_path(@task)
+= link_to t('common.back'), tasks_path

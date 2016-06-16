@@ -20,4 +20,27 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  activerecord:
+    attributes:
+      task:
+        title: "Title"
+        text: "Text"
   hello: "Hello world"
+  table:
+    title: "Title"
+    text: "Text"
+  common:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      back: "Back"
+  layouts:
+    app_name: "Task Manager"
+  tasks:
+    index:
+      listing_task: "Listinig Task"
+      new_task: "New Task"
+    edit:
+      title: "Editing task"
+    new:
+      title: "New Task"
