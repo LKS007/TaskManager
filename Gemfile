@@ -24,6 +24,7 @@ gem 'haml-rails'
 gem 'pry'
 gem 'wrong'
 gem 'i18n'
+gem 'state_machines-activerecord'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
